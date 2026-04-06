@@ -1,7 +1,7 @@
 from flask import Flask, request
 import requests
 
-app = Flask(name)
+app = Flask(__name__)   
 
 TOKEN = "8478311707:AAFF4Zpw1f1n2ChYjjsqu897I_S-VmW_l_U"
 CHAT_ID = "8036962371"
